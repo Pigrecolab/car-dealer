@@ -6,13 +6,13 @@ get_header();
 
 cde_scripts_styles(); /* include the necessary srctips and styles */
 ?>
-
+<div class="cde_container">
 <?php $style_width = '';
 /*  if( get_option( 'otw_pfl_content_width' ) ) {
       $style_width = 'style="width:'.get_option('otw_pfl_content_width').'px;"';
     }*/
     ?>
-    <div class="row">
+    <div class="cde_row">
     <?php
   $order = "&order=ASC";
   if ($_POST['select'] == 'price') { $order = "&orderby=_cde_price";  }
@@ -69,7 +69,7 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
                 <figure>
                   <a href="<?php echo $src_orig[0]; ?>" rel="gallery" class="thumb"><img src="<?php echo $src_thumb[0]; ?>" /></a>
                   <?php } else { ?>
-                  <div style="background:url(<?php echo plugins_url( '/otw-portfolio-light/images/pattern-1.png' ) ?>);width:<?php echo get_option('otw_pfl_thumb_size_w', '303'); ?>px;height:<?php echo get_option('otw_pfl_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'otw_pfl' ); ?>"></div>
+                  <div style="background:url(<?php echo plugins_url( '/car-dealer/images/pattern-1.png' ) ?>);width:<?php echo get_option('cde_thumb_size_w', '303'); ?>px;height:<?php echo get_option('cde_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'cde_pgl' ); ?>"></div>
                   <?php } ?>
                   <figcaption>
                     <h4><?php 
@@ -79,9 +79,9 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
                      $price = get_post_meta( get_the_ID(), $prefix.'price', true );
                      echo "&euro; ".$price;
                   ?></h4><br />
-                    <span><?php printf( __( '<strong>Year: </strong> %s' ), $year );
+                    <span><?php printf( __( '<strong>Year: </strong> %s', "cde_pgl" ), $year );
                     echo "<br>";
-                      printf( __( '<strong>Km: </strong> %s' ), $mileage )  ?></span>
+                      printf( __( '<strong>Km: </strong> %s', "cde_pgl" ), $mileage )  ?></span>
                     <a href="<?php the_permalink(); ?>"><?php _e("Take a look", "cde_pgl") ?></a>
                   </figcaption>
                 </figure>
@@ -115,6 +115,6 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
 
 
    </div>
- </div>
+
 
  <?php get_footer(); ?>

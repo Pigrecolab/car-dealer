@@ -17,30 +17,18 @@
   margin-left: auto;
 
 }
-a.cde_thumbnail:hover,
-a.cde_thumbnail:focus,
-a.cde_thumbnail.active {
-  border-color: #337ab7;
-}
+
 .cde_thumbnail .caption {
   padding: 9px;
   color: #333;
 }
-,
-.cde_thumbnail > a.thumb {
-
-    height: 200px;
-  overflow: hidden;
-  display: block;
-
-}
-
-
 
 
 .cde_grid figure {
   margin: 0;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cde_grid figure img {
@@ -53,7 +41,7 @@ a.cde_thumbnail.active {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding: 7px;
   background: #2c3f52;
   color: #ed4e6e;
 }
@@ -92,7 +80,7 @@ a.cde_thumbnail.active {
   transform-style: preserve-3d;
 }
 
-.cde_thumbnail figure > div {
+.cde_thumbnail figure > .thumb {
   overflow: hidden;
 }
 
@@ -100,6 +88,7 @@ a.cde_thumbnail.active {
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   transition: transform 0.4s;
+  width: 100%;
 }
 
 .no-touch .cde_thumbnail figure:hover img,
@@ -162,4 +151,8 @@ figcaption  strong {
   height: auto;
     top: -50%;
       position: relative
+}
+
+.cde_clearfix {
+  clear: both;
 }

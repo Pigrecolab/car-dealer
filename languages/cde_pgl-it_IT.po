@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Car dealer\n"
-"POT-Creation-Date: 2015-11-18 13:12+0100\n"
-"PO-Revision-Date: 2015-11-18 13:13+0100\n"
+"POT-Creation-Date: 2015-11-25 11:29+0100\n"
+"PO-Revision-Date: 2015-11-25 11:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -13,8 +13,8 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
@@ -230,7 +230,7 @@ msgstr ""
 
 #: CMB2/example-functions.php:433
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: CMB2/example-functions.php:434
 msgid "Write a short description for this entry"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: CMB2/example-functions.php:517
 msgid "User Field"
-msgstr ""
+msgstr "Campo utente"
 
 #: CMB2/example-functions.php:540
 msgid "Theme Options Metabox"
@@ -319,7 +319,7 @@ msgstr ""
 
 #: CMB2/includes/CMB2_Types.php:297
 msgid "Add Row"
-msgstr ""
+msgstr "Aggiungi riga"
 
 #: CMB2/includes/CMB2_Types.php:356 CMB2/includes/CMB2_Types.php:989
 #: CMB2/includes/CMB2_hookup.php:194
@@ -328,15 +328,15 @@ msgstr ""
 
 #: CMB2/includes/CMB2_Types.php:725 CMB2/includes/CMB2_Types.php:773
 msgid "No terms"
-msgstr ""
+msgstr "Nessun termine"
 
 #: CMB2/includes/CMB2_Types.php:838
 msgid "Add or Upload Files"
-msgstr ""
+msgstr "Aggiungere o Carica file"
 
 #: CMB2/includes/CMB2_Types.php:896
 msgid "Add or Upload File"
-msgstr ""
+msgstr "Aggiungi o carica file"
 
 #: CMB2/includes/CMB2_Types.php:970 CMB2/includes/CMB2_hookup.php:193
 msgid "Remove Image"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: CMB2/includes/CMB2_hookup.php:139 CMB2/includes/CMB2_hookup.php:176
 msgid "Clear"
-msgstr ""
+msgstr "Cancella"
 
 #: CMB2/includes/CMB2_hookup.php:140
 msgid "Default"
@@ -394,8 +394,8 @@ msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
 msgstr ""
 
 #: CMB2/includes/CMB2_hookup.php:172 css/otw-portfolio-post.php:47
-#: css/otw-portfolio-post.php:59 templates/single-vehicle.php:73
-#: templates/single-vehicle.php:88 templates/single-vehicle_FAKE.php:47
+#: css/otw-portfolio-post.php:59 templates/single-vehicle - Copia.php:73
+#: Copia.php:88 templates/single-vehicle_FAKE.php:47
 #: templates/single-vehicle_FAKE.php:59
 msgid "Next"
 msgstr ""
@@ -410,7 +410,7 @@ msgstr ""
 
 #: CMB2/includes/CMB2_hookup.php:175 CMB2/includes/CMB2_hookup.php:185
 msgid "Done"
-msgstr ""
+msgstr "Eseguito"
 
 #: CMB2/includes/CMB2_hookup.php:179
 msgid "Choose Time"
@@ -445,7 +445,7 @@ msgstr ""
 
 #: CMB2/includes/CMB2_hookup.php:192
 msgid "Use this file"
-msgstr ""
+msgstr "Utilizza questo file:"
 
 #: CMB2/includes/CMB2_hookup.php:197
 msgid "Select / Deselect All"
@@ -453,124 +453,287 @@ msgstr ""
 
 #: CMB2/includes/helper-functions.php:249
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
-#: car-dealer.php:21
+#: car-dealer.php:23
 msgid "Vehicles"
 msgstr "Veicoli"
 
-#: car-dealer.php:22 car-dealer.php:152
+#: car-dealer.php:24 car-dealer.php:178
 msgid "Vehicle"
 msgstr "﻿Veicolo"
 
-#: car-dealer.php:23
+#: car-dealer.php:25
 msgid "Add"
 msgstr "Aggiungi"
 
-#: car-dealer.php:24
+#: car-dealer.php:26
 msgid "Add new vehicle"
 msgstr "Aggiungi nuovo veicolo"
 
-#: car-dealer.php:25
+#: car-dealer.php:27
 msgid "Update vehicle"
 msgstr "Aggiorna veicolo"
 
-#: car-dealer.php:26
+#: car-dealer.php:28
 msgid "New vehicle"
 msgstr "Nuovo veicolo"
 
-#: car-dealer.php:27
+#: car-dealer.php:29
 msgid "All the vehicles"
 msgstr "Tutti i veicoli"
 
-#: car-dealer.php:28
+#: car-dealer.php:30
 msgid "View vehicle"
 msgstr "Guarda veicolo"
 
-#: car-dealer.php:29
+#: car-dealer.php:31
 msgid "Search vehicle"
 msgstr "Ricerca veicolo"
 
-#: car-dealer.php:30
+#: car-dealer.php:32
 msgid "No result found"
 msgstr "Nessun risultato trovato"
 
-#: car-dealer.php:31
+#: car-dealer.php:33
 msgid "No result in trash"
 msgstr "Non trovato nel cestino"
 
-#: car-dealer.php:65
-msgid "Makes"
-msgstr "Marche"
-
-#: car-dealer.php:85
-msgid "Vehicle features"
-msgstr "Caratteristiche del veicolo"
-
-#: car-dealer.php:86
+#: car-dealer.php:45
 msgid "vehicle"
 msgstr "veicolo"
 
-#: car-dealer.php:96
+#: car-dealer.php:67
+msgid "Makes"
+msgstr "Marche"
+
+#: car-dealer.php:87
+msgid "Vehicle features"
+msgstr "Caratteristiche del veicolo"
+
+#: car-dealer.php:98 templates/single-vehicle - Copia.php:28
+#: templates/single-vehicle.php:28
 msgid "Make"
 msgstr "Marca"
 
-#: car-dealer.php:97
+#: car-dealer.php:99
 msgid "Choose the make"
 msgstr "Scegli la marca"
 
-#: car-dealer.php:104
+#: car-dealer.php:106 templates/single-vehicle - Copia.php:35
+#: templates/single-vehicle.php:35
 msgid "Model"
 msgstr "Modello"
 
-#: car-dealer.php:105
+#: car-dealer.php:107
 msgid "Model of the vehicle"
 msgstr "Modello del veicolo"
 
-#: car-dealer.php:111 car-dealer.php:155
+#: car-dealer.php:113 car-dealer.php:181
+msgid "Year"
+msgstr "Anno"
+
+#: car-dealer.php:114
+msgid "Construction year of the vehicle"
+msgstr "Anno di costruzione del veicolo"
+
+#: car-dealer.php:120 car-dealer.php:182 templates/single-vehicle -
+#: Copia.php:40 templates/single-vehicle.php:40
 msgid "Mileage"
 msgstr "Chilometraggio"
 
-#: car-dealer.php:112
+#: car-dealer.php:121
 msgid "Mileage of the vehicle"
 msgstr "Chilometraggio del veicolo"
 
-#: car-dealer.php:118 car-dealer.php:154
+#: car-dealer.php:128
+msgid "Fuel"
+msgstr "Carburante"
+
+#: car-dealer.php:129
+msgid "Choose the fuel type"
+msgstr "Scegli il tipo di carburante"
+
+#: car-dealer.php:134
+msgid "benzine"
+msgstr "benzina"
+
+#: car-dealer.php:135
+msgid "diesel"
+msgstr ""
+
+#: car-dealer.php:136
+msgid "LPG"
+msgstr "GPL"
+
+#: car-dealer.php:137
+msgid "methane"
+msgstr "metano"
+
+#: car-dealer.php:138
+msgid "electric"
+msgstr "elettrica"
+
+#: car-dealer.php:139
+msgid "mixed"
+msgstr "Misto"
+
+#: car-dealer.php:144 car-dealer.php:180 templates/single-vehicle -
+#: Copia.php:44 templates/single-vehicle.php:44
 msgid "Price"
 msgstr "Prezzo"
 
-#: car-dealer.php:119
+#: car-dealer.php:145
 msgid "Price of the vehicle"
 msgstr "Prezzo del veicolo"
 
-#: car-dealer.php:127
+#: car-dealer.php:153 templates/single-vehicle.php:59
 msgid "Photos"
 msgstr "Foto"
 
-#: car-dealer.php:153
+#: car-dealer.php:179
 msgid "Thumbs"
 msgstr ""
 
-#: car-dealer.php:176 car-dealer.php:192
+#: car-dealer.php:203 car-dealer.php:219 car-dealer.php:235
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: car-dealer.php:180
+#: car-dealer.php:207
 #, php-format
 msgid "€ %s"
 msgstr ""
 
-#: car-dealer.php:196
+#: car-dealer.php:223 car-dealer.php:239
 #, php-format
 msgid "%s"
 msgstr ""
 
-#: car-dealer.php:304
-msgid "Pages:"
+#: car-dealer.php:399
+msgid "Vehicle Search Widget"
+msgstr "Widget Ricerca Veicoli"
+
+#: car-dealer.php:402
+msgid "widget for searching a vehicle"
 msgstr ""
 
+#: car-dealer.php:422 car-dealer.php:512
+msgid "Name: "
+msgstr ""
+
+#: car-dealer.php:423 car-dealer.php:513
+msgid "Type the Car Name"
+msgstr "Digitare il nome della vettura"
+
+#: car-dealer.php:425 car-dealer.php:515
+msgid "Max Mileage: "
+msgstr "Max Chilometraggio:"
+
+#: car-dealer.php:426 car-dealer.php:516
+msgid "Maximum mileage"
+msgstr "Chilometraggio massimo"
+
+#: car-dealer.php:428 car-dealer.php:518
+msgid "Max price: "
+msgstr "Prezzo max:"
+
+#: car-dealer.php:429 car-dealer.php:519
+msgid "Maximum Price"
+msgstr "Prezzo massimo"
+
+#: car-dealer.php:431 car-dealer.php:521
+msgid "Min Year: "
+msgstr "Min Anno:"
+
+#: car-dealer.php:432 car-dealer.php:522
+msgid "Minimum Year of Constr."
+msgstr "Minimo Anno di costr."
+
+#: car-dealer.php:450
+msgid "New title"
+msgstr ""
+
+#: car-dealer.php:455
+msgid "Title:"
+msgstr "Titolo:"
+
+#: car-dealer.php:558 templates/archive-vehicle - Copia.php:29
+#: templates/archive-vehicle.php:29 templates/archive-vehicle_not.php:29
+msgid "Sort vehicles by:"
+msgstr "Ordina veicoli per:"
+
+#: car-dealer.php:560 templates/archive-vehicle - Copia.php:31
+#: templates/archive-vehicle.php:31 templates/archive-vehicle_not.php:31
+msgid "price"
+msgstr "prezzo"
+
+#: car-dealer.php:561 templates/archive-vehicle - Copia.php:32
+#: templates/archive-vehicle.php:32 templates/archive-vehicle_not.php:32
+msgid "year"
+msgstr "anno"
+
+#: car-dealer.php:562 templates/archive-vehicle - Copia.php:33
+#: templates/archive-vehicle.php:33 templates/archive-vehicle_not.php:33
+msgid "mileage"
+msgstr "Chilometraggio"
+
+#: car-dealer.php:567 templates/archive-vehicle - Copia.php:38
+#: templates/archive-vehicle.php:38 templates/archive-vehicle_not.php:38
+msgid "ASC"
+msgstr ""
+
+#: car-dealer.php:568 templates/archive-vehicle - Copia.php:39
+#: templates/archive-vehicle.php:39 templates/archive-vehicle_not.php:39
+msgid "DESC"
+msgstr ""
+
+#: car-dealer.php:600 templates/advanced-vehicle-results.php:62
+#: templates/archive-vehicle - Copia.php:71 templates/archive-vehicle.php:72
+#: templates/archive-vehicle_not.php:68
+#: templates/otw-prtfolio-filterable.php:43
+msgid "No Image"
+msgstr ""
+
+#: car-dealer.php:610 templates/advanced-vehicle-results.php:72
+#: templates/archive-vehicle - Copia.php:81 templates/archive-vehicle.php:82
+#: templates/archive-vehicle_not.php:78
+#, php-format
+msgid "<strong>Year: </strong> %s"
+msgstr "<strong>Anno: </strong> %s"
+
+#: car-dealer.php:612 templates/advanced-vehicle-results.php:74
+#: templates/archive-vehicle - Copia.php:83 templates/archive-vehicle.php:84
+#: templates/archive-vehicle_not.php:80
+#, php-format
+msgid "<strong>Km: </strong> %s"
+msgstr "<strong>Km:</strong> %s"
+
+#: car-dealer.php:613 templates/advanced-vehicle-results.php:75
+#: templates/archive-vehicle - Copia.php:84 templates/archive-vehicle.php:85
+#: templates/archive-vehicle_not.php:81
+msgid "Take a look"
+msgstr "Scheda"
+
+#: car-dealer.php:633 templates/advanced-vehicle-results.php:95
+#: templates/archive-vehicle - Copia.php:104 templates/archive-vehicle.php:105
+#: templates/archive-vehicle_not.php:101
+#: templates/otw-prtfolio-filterable.php:65
+msgid "Nothing Found"
+msgstr ""
+
+#: car-dealer.php:637 templates/advanced-vehicle-results.php:99
+#: templates/archive-vehicle - Copia.php:108 templates/archive-vehicle.php:109
+#: templates/archive-vehicle_not.php:105
+#: templates/otw-prtfolio-filterable.php:69
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"Spiacenti, ma non è stato trovato alcun risultato. Forse eseguendo una "
+"ricerca riuscirai a trovare un articolo correlato a quello che stai cercando."
+
 #: css/otw-portfolio-post.php:47 css/otw-portfolio-post.php:59
-#: templates/single-vehicle.php:73 templates/single-vehicle.php:88
+#: templates/single-vehicle - Copia.php:73 Copia.php:88
 #: templates/single-vehicle_FAKE.php:47 templates/single-vehicle_FAKE.php:59
 msgid "Previous"
 msgstr ""
@@ -597,20 +760,10 @@ msgctxt "Next post link"
 msgid "&rarr;"
 msgstr ""
 
+#: templates/advanced-vehicle-results.php:43
+msgid "Advanced results"
+msgstr "Risultati ricerca avanzata"
+
 #: templates/otw-prtfolio-filterable.php:24
 msgid "All"
-msgstr ""
-
-#: templates/otw-prtfolio-filterable.php:43
-msgid "No Image"
-msgstr ""
-
-#: templates/otw-prtfolio-filterable.php:65
-msgid "Nothing Found"
-msgstr ""
-
-#: templates/otw-prtfolio-filterable.php:69
-msgid ""
-"Apologies, but no results were found. Perhaps searching will help find a "
-"related post."
-msgstr ""
+msgstr "TUTTO"

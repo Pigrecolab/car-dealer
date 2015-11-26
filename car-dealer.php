@@ -494,11 +494,13 @@ function cde_load_custom_search_template(){
 }
 add_action('init','cde_load_custom_search_template');
 
-add_shortcode( 'cde_advanced_search', 'cde_adv_short' );
+
 
 /*-----------------------------------------------------------------------------------*/
 /* ADVANCED SEARCH SHORTCODE*/
 /*-----------------------------------------------------------------------------------*/
+
+add_shortcode( 'cde_advanced_search', 'cde_adv_short' );
 
 function cde_adv_short( $atts ) {
 
@@ -509,17 +511,17 @@ function cde_adv_short( $atts ) {
     <!-- PASSING THIS TO TRIGGER THE ADVANCED SEARCH RESULT PAGE FROM functions.php -->
     <input type="hidden" name="search" value="advanced">
 
-    <br /><label for="name" class=""><?php _e( 'Name: ', 'cge_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Type the Car Name', 'cge_pgl' ); ?>" name="name" id="name" />
+    <br /><label for="name" class=""><?php _e( 'Name: ', 'cde_pgl' ); ?></label><br>
+    <input type="text" value="" placeholder="<?php _e( 'Type the Car Name', 'cde_pgl' ); ?>" name="name" id="name" />
 
-    <br /><label for="maxmil" class=""><?php _e( 'Max Mileage: ', 'cge_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Maximum mileage', 'cge_pgl' ); ?>" name="maxmil" id="maxmil" />
+    <br /><label for="maxmil" class=""><?php _e( 'Max Mileage: ', 'cde_pgl' ); ?></label><br>
+    <input type="text" value="" placeholder="<?php _e( 'Maximum mileage', 'cde_pgl' ); ?>" name="maxmil" id="maxmil" />
 
-    <br /><label for="maxprice" class=""><?php _e( 'Max price: ', 'cge_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Maximum Price', 'cge_pgl' ); ?>" name="maxprice" id="maxprice" />
+    <br /><label for="maxprice" class=""><?php _e( 'Max price: ', 'cde_pgl' ); ?></label><br>
+    <input type="text" value="" placeholder="<?php _e( 'Maximum Price', 'cde_pgl' ); ?>" name="maxprice" id="maxprice" />
 
-    <br /><label for="minyear" class=""><?php _e( 'Min Year: ', 'cge_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Minimum Year of Constr.', 'cge_pgl' ); ?>" name="minyear" id="minyear" />
+    <br /><label for="minyear" class=""><?php _e( 'Min Year: ', 'cde_pgl' ); ?></label><br>
+    <input type="text" value="" placeholder="<?php _e( 'Minimum Year of Constr.', 'cde_pgl' ); ?>" name="minyear" id="minyear" />
 
 
 
@@ -527,6 +529,140 @@ function cde_adv_short( $atts ) {
 
 </form>
 	<?php
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* LAST VEHICLES SHORTCODE*/
+/*-----------------------------------------------------------------------------------*/
+
+add_shortcode( 'cde_last', 'cde_adv_last' );
+
+function cde_adv_last( $atts ) {
+
+cde_scripts_styles(); /* include the necessary srctips and styles */
+
+$r = new WP_Query( array(
+   'posts_per_page' => 6,
+   'no_found_rows' => true, /*suppress found row count*/
+   'post_status' => 'publish',
+   'post_type' => 'vehicle',
+   'ignore_sticky_posts' => true,
+) );
+
+
+	$cnt=0;
+	$shrt="";
+    if ($r->have_posts()){
+     while ($r->have_posts()) : $r->the_post();
+         $shrt.=" <div class=\"col-sm-6 col-md-4 \">";
+           $shrt.="<div class=\"cde_thumbnail cde_grid\">";
+              if ( has_post_thumbnail()) { 
+//Get the Thumbnail URL
+                $src_orig = wp_get_attachment_image_src( get_post_thumbnail_id($r->post->ID), 'full', false, '' );
+                $src_thumb = wp_get_attachment_image_src( get_post_thumbnail_id($r->post->ID), 'cde_size', false, '' );
+
+               
+                $shrt.="<figure><a href=\"".$src_orig[0]."\" rel=\"gallery\" class=\"thumb\"><img src=\"".$src_thumb[0]."\" /></a>";
+                   } else { 
+                  $shrt.="<div style=\"background:url(".plugins_url( '/car-dealer/images/pattern-1.png' ) .");width:".get_option('cde_thumb_size_w', '303')."px;height:". get_option('cde_thumb_size_h', '210')."px\" title=\"". __( 'No Image', 'cde_pgl' )."\"></div>";
+                 } 
+                  $shrt.="<figcaption>
+                    <h4>";
+                $prefix = '_cde_';
+                     $mileage = get_post_meta( get_the_ID(), $prefix.'mileage', true );
+                     $year = get_post_meta( get_the_ID(), $prefix.'year', true );
+                     $price = get_post_meta( get_the_ID(), $prefix.'price', true );
+                     $shrt.="&euro; ".$price;
+                   $shrt.="</h4><br /><span>".sprintf( __( '<strong>Year: </strong> %s', "cde_pgl" ), $year );
+                    $shrt.="<br>";
+                      $shrt.=sprintf( __( '<strong>Km: </strong> %s', "cde_pgl" ), $mileage )."</span><br>
+                    <a href=\"".get_the_permalink()."\">".__("Take a look", "cde_pgl")."</a>";
+                 $shrt.=" </figcaption>";
+                $shrt.="</figure>";
+                $shrt.="<div class=\"caption\">
+                  <h3>        <a href=\"".get_the_permalink()."\" title=\"". get_the_title()."\">". get_the_title()."</a></h3>";
+                  $shrt.="<p>".get_the_excerpt()."</p>";
+                $shrt.="</div>";
+             $shrt.=" </div>";
+           $shrt.=" </div>";
+
+            $cnt+=1;
+            if ($cnt==3) {
+            	         $shrt.="<div class=\"cde_clearfix\"></div>";
+            	        $cnt=0;
+            }
+            
+          endwhile; 
+
+          $shrt.="<div class=\"cde_clearfix\"></div>";
+}
+return $shrt;
+}
+
+// Front end only, don't hack on the settings page
+if ( ! is_admin() ) {
+    // Hook in early to modify the menu
+    // This is before the CSS "selected" classes are calculated
+    //add_filter( 'wp_get_nav_menu_items', 'replace_placeholder_nav_menu_item_with_latest_post', 10, 3 );
+}
+
+// Replaces a custom URL placeholder with the URL to the latest post
+function replace_placeholder_nav_menu_item_with_latest_post( $items, $menu, $args ) {
+
+
+    // Loop through the menu items looking for placeholder(s)
+/*    foreach ( $items as $item ) {*/
+
+	$myargs = array(
+	'type'                     => 'post',
+	'child_of'                 => 0,
+	'parent'                   => '',
+	'orderby'                  => 'name',
+	'order'                    => 'ASC',
+	'hide_empty'               => 1,
+	'hierarchical'             => 1,
+	'exclude'                  => '',
+	'include'                  => '',
+	'number'                   => '',
+	'taxonomy'                 => 'cde_category_makes',
+	'pad_counts'               => false 
+
+); 
+
+
+if ($menu->slug=='super') {
+$uff= get_categories( $myargs );
+	var_dump($uff);
+
+/*	echo "<br><br>";*/
+	//var_dump($items);
+/*	$items[1]=$uff;
+	return $items*/;
+
+	    // Loop through the menu items looking for placeholder(s)
+   foreach ( $items[1] as $item => $itemval ) {
+   		echo $item." : ".$itemval."<br>";
+   		 }
+
+/*        // Is this the placeholder we're looking for?
+        if ( '#latestpost' != $item->url )
+            continue;
+
+        // Get the latest post
+        $latestpost = get_posts( array(
+            'numberposts' => 1,
+        ) );
+
+        if ( empty( $latestpost ) )
+            continue;
+
+        // Replace the placeholder with the real URL
+        $item->url = get_permalink( $latestpost[0]->ID );
+    }
+
+    // Return the modified (or maybe unmodified) menu items array*/
+    //return $items;
+}
 }
 
 
