@@ -58,7 +58,7 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
 <div id="cde_jpag">
         
         <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-          <div class="col-sm-6 col-md-3 ">
+          <div class="cde_col-sm-6 cde_col-md-3 ">
           <div class="cde_thumbnail cde_grid">
               <?php if ( has_post_thumbnail()) { 
 //Get the Thumbnail URL

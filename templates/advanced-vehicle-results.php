@@ -39,8 +39,8 @@ $v_args = array(
 $vehicleSearchQuery = new WP_Query( $v_args );
 
     ?>
-    <div class="row">
-     <div class="col-sm-12"><strong><?php _e('Advanced results',"cde_pgl") ?></strong><hr></div>
+    <div class="cde_row">
+     <div class="cde_col-sm-12"><strong><?php _e('Advanced results',"cde_pgl") ?></strong><hr></div>
            <!-- navigation holder -->
       <div class="holder">
       </div>
@@ -48,7 +48,7 @@ $vehicleSearchQuery = new WP_Query( $v_args );
 <div id="cde_jpag">
 
         <?php if ($vehicleSearchQuery->have_posts()): while ($vehicleSearchQuery->have_posts()) : $vehicleSearchQuery->the_post(); ?>
-          <div class="col-sm-6 col-md-3">
+          <div class="cde_col-sm-6 cde_col-md-3">
           <div class="cde_thumbnail cde_grid">
               <?php if ( has_post_thumbnail()) { 
 //Get the Thumbnail URL

@@ -71,16 +71,34 @@ function vehicle_tax_init() {
 }
 add_action( 'init', 'vehicle_tax_init' );
 
-add_action( 'cmb2_init', 'cde_register_vehicle_metabox' );
+
+
 /**
- * Hook in and add a demo metabox. Can only happen on the 'cmb2_init' hook.
+ * Create custom settings page.
  */
+
+require_once dirname( __FILE__ ) . '/classes/cde_admin.php';
+
+/**
+ * Create metabox for vehicle custom post type.
+ */
+
+$cde_opt=get_option( 'cde_options');
+$cde_mil_abb=$cde_opt['cde_mil_abb'];
+$cde_mon_sym=$cde_opt['cde_mon_sym'];
+
+
+
+
+add_action( 'cmb2_init', 'cde_register_vehicle_metabox' );
 
 function cde_register_vehicle_metabox() {
 
 	// Start with an underscore to hide fields from custom fields list
 	$prefix = '_cde_';
 
+global $cde_mil_abb;
+global $cde_mon_sym;
 
 	$mycmb = new_cmb2_box( array(
 		'id'            => $prefix . 'metabox',
@@ -120,7 +138,8 @@ function cde_register_vehicle_metabox() {
 		'name'    => __( 'Mileage', 'cde_pgl' ),
 		'desc'    => __( 'Mileage of the vehicle', 'cde_pgl' ),
 		'id'      =>  $prefix . 'mileage',
-		'type'    => 'text_small'
+		'type'    => 'text_small',
+				'before_field' => $cde_mil_abb
 		) );
 
 
@@ -145,7 +164,7 @@ function cde_register_vehicle_metabox() {
 		'desc' => __( 'Price of the vehicle', 'cde_pgl' ),
 		'id' =>  $prefix . 'price',
 		'type' => 'text_money',
-		'before_field' => '€'
+		'before_field' => $cde_mon_sym
 		) );
 
 
@@ -189,6 +208,10 @@ function vehicle_columns($columns){
 
 function vehicle_custom_columns($column, $post_id){
 	global $post;
+
+	global $cde_mil_abb;
+global $cde_mon_sym;
+
 	$prefix="_cde_";
 
 	switch( $column ) {
@@ -202,9 +225,9 @@ function vehicle_custom_columns($column, $post_id){
 		if ( empty( $price ) )
 			echo __( 'Unknown' );
 
-		/* If there is a price, append 'minutes' to the text string. */
+		/* If there is a price, append 'symbol' to the text string. */
 		else
-			printf( __( '€ %s' ), $price );
+			printf( __( $cde_mon_sym.' %s' ), $price );
 
 		break;
 
@@ -218,7 +241,7 @@ function vehicle_custom_columns($column, $post_id){
 		if ( empty( $year ) )
 			echo __( 'Unknown' );
 
-		/* If there is a mileage, append 'minutes' to the text string. */
+		/* If there is a mileage, append 'mil' to the text string. */
 		else
 			printf( __( '%s' ), $year );
 
@@ -236,7 +259,7 @@ function vehicle_custom_columns($column, $post_id){
 
 		/* If there is a mileage, append 'minutes' to the text string. */
 		else
-			printf( __( '%s' ), $mileage );
+			printf( __( $cde_mil_abb.' %s' ), $mileage );
 
 		break;
 
@@ -298,31 +321,8 @@ function include_template_vehicle( $template_path ) {
 
  add_image_size( "cde_size", 300, 200, true ); 
 
-/*
-function custom_posts_per_page( $query ) {
 
- if ( $query->is_archive('vehicle') ) {
- 	global $wp_query;
 
-           $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-           //query_posts('post_type=vehicle&posts_per_page=2&paged='.$paged);
-           $loop = new WP_Query( array( 'post_type' => 'vehicle', 'posts_per_page' => 2, 'paged'=>$paged ) ); 
-
-           // Pagination fix
-$temp_query = $wp_query;
-$wp_query   = NULL;
-$wp_query   = $loop;
-
-$mypag=get_next_posts_link('Next Entries');
-
-     wp_reset_postdata();
-
-// Reset main query object
-$wp_query = NULL;
-$wp_query = $temp_query;
-}
-}
-add_action( 'pre_get_posts', 'custom_posts_per_page' );*/
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -375,11 +375,6 @@ function cde_scripts_styles(){
 
 }
 
-function cde_pfl_filter_scripts_styles(){
-	/* Filterable Portfolio Items */
-	wp_register_script('jquery-quicksand', plugins_url( '/js/jquery.quicksand.js', __FILE__ ), array(), false, true);
-	wp_enqueue_script('jquery-quicksand');
-}
 
 
 
@@ -504,31 +499,31 @@ add_shortcode( 'cde_advanced_search', 'cde_adv_short' );
 
 function cde_adv_short( $atts ) {
 
-	?>
-<form method="get" id="advanced-searchform" role="search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+$advshrt='<form method="get" id="advanced-searchform" role="search" action="'.esc_url( home_url( '/' ) ).'">
 
 
     <!-- PASSING THIS TO TRIGGER THE ADVANCED SEARCH RESULT PAGE FROM functions.php -->
     <input type="hidden" name="search" value="advanced">
 
-    <br /><label for="name" class=""><?php _e( 'Name: ', 'cde_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Type the Car Name', 'cde_pgl' ); ?>" name="name" id="name" />
+    <br /><label for="name" class="">'. __( 'Name: ', 'cde_pgl' ).'</label><br>
+    <input type="text" value="" placeholder="'. __( 'Type the Car Name', 'cde_pgl' ).'" name="name" id="name" />
 
-    <br /><label for="maxmil" class=""><?php _e( 'Max Mileage: ', 'cde_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Maximum mileage', 'cde_pgl' ); ?>" name="maxmil" id="maxmil" />
+    <br /><label for="maxmil" class="">'. __( 'Max Mileage: ', 'cde_pgl' ).'</label><br>
+    <input type="text" value="" placeholder="'. __( 'Maximum mileage', 'cde_pgl' ).'" name="maxmil" id="maxmil" />
 
-    <br /><label for="maxprice" class=""><?php _e( 'Max price: ', 'cde_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Maximum Price', 'cde_pgl' ); ?>" name="maxprice" id="maxprice" />
+    <br /><label for="maxprice" class="">'. __( 'Max price: ', 'cde_pgl' ).'</label><br>
+    <input type="text" value="" placeholder="'. __( 'Maximum Price', 'cde_pgl' ).'" name="maxprice" id="maxprice" />
 
-    <br /><label for="minyear" class=""><?php _e( 'Min Year: ', 'cde_pgl' ); ?></label><br>
-    <input type="text" value="" placeholder="<?php _e( 'Minimum Year of Constr.', 'cde_pgl' ); ?>" name="minyear" id="minyear" />
+    <br /><label for="minyear" class="">'. __( 'Min Year: ', 'cde_pgl' ).'</label><br>
+    <input type="text" value="" placeholder="'. __( 'Minimum Year of Constr.', 'cde_pgl' ).'" name="minyear" id="minyear" />
 
 
 
     <input type="submit" id="searchsubmit" value="Search" />
 
-</form>
-	<?php
+</form>';
+	
+	return $advshrt;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -631,37 +626,13 @@ function replace_placeholder_nav_menu_item_with_latest_post( $items, $menu, $arg
 
 
 if ($menu->slug=='super') {
-$uff= get_categories( $myargs );
-	var_dump($uff);
 
-/*	echo "<br><br>";*/
-	//var_dump($items);
-/*	$items[1]=$uff;
-	return $items*/;
 
 	    // Loop through the menu items looking for placeholder(s)
    foreach ( $items[1] as $item => $itemval ) {
    		echo $item." : ".$itemval."<br>";
    		 }
 
-/*        // Is this the placeholder we're looking for?
-        if ( '#latestpost' != $item->url )
-            continue;
-
-        // Get the latest post
-        $latestpost = get_posts( array(
-            'numberposts' => 1,
-        ) );
-
-        if ( empty( $latestpost ) )
-            continue;
-
-        // Replace the placeholder with the real URL
-        $item->url = get_permalink( $latestpost[0]->ID );
-    }
-
-    // Return the modified (or maybe unmodified) menu items array*/
-    //return $items;
 }
 }
 
@@ -777,7 +748,6 @@ function cde_pagin( $atts ) {
 
      <?php endif; ?>
 
-     <?php cde_pagination(); ?>
 
    </div>
  </div>
