@@ -4,19 +4,15 @@
  
  get_header(); 
  cde_scripts_styles();
- ?>
- <div id="primary">
 
-    <div id="content" role="main">
-        <?php
 
 
         $prefix = '_cde_';
-        ?>
-        <?php while ( have_posts() ) : the_post(); ?>
+
+ while ( have_posts() ) : the_post(); ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 <header class="entry-header">
-                    <div class="container">
+                    <div class="cde_container">
                         <div class="row">
                             <!-- Display featured image in right-aligned floating div -->
                             <div class="col-sm-5">
@@ -28,7 +24,7 @@
                                 <strong><?php _e( 'Make', 'cde_pgl' ) ?>: </strong>
                                 <?php 
                                 $mk=get_post_meta( get_the_ID(), $prefix.'make', true );
-                                $mk = wp_get_post_terms(get_the_ID(), 'makes', array("fields" => "names"));
+                                $mk = wp_get_post_terms(get_the_ID(), 'cde_category_makes', array("fields" => "names"));
                                 echo esc_html( $mk[0] ); ?>
                                 <br /><br />
 
@@ -42,7 +38,7 @@
                                 <br /><br />
 
                                 <strong><?php _e( 'Price', 'cde_pgl' ) ?>: </strong>
-                                <?php echo esc_html( get_post_meta( get_the_ID(), $prefix.'price', true ) ); ?>
+                                &euro; <?php echo esc_html( get_post_meta( get_the_ID(), $prefix.'price', true ) ); ?>
                                 <br />   <br />
                             </div>    
                         </div><br /><br />
@@ -64,8 +60,8 @@
 
                             foreach ( (array) $files as $attachment_id => $attachment_url ) {
                                 $url = $attachment_url; ?>
-                                <div class="col-sm-6 col-md-3">
-                                  <div class="cde_thumbnaild">
+                                <div class="col-sm-3">
+                                  <div class="cde_thumbnail">
                             <a href="<?php echo $url ?>" rel="gallery" class="thumb"><?php echo wp_get_attachment_image( $attachment_id, 'cde_size' ) ?></a>
   
                               </div>
@@ -74,7 +70,7 @@
                                 }
                                  
                            } ?>
-                      </div>
+                     </div>
                   </div>
               </header>
 
@@ -82,7 +78,6 @@
           </article>
 
       <?php endwhile; ?>
-  </div>
-</div>
+
 <?php wp_reset_query(); ?>
 <?php get_footer(); ?>
