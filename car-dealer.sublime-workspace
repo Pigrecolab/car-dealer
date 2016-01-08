@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"var",
+				"var_dump"
+			],
+			[
 				"mar",
 				"margin-right"
 			],
@@ -32,68 +36,10 @@
 	"buffers":
 	[
 		{
-			"file": "car-dealer.php",
-			"settings":
-			{
-				"buffer_size": 26013,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 213 files for \"hotel\"\n\n0 matches\n\nSearching 213 files for \"pigreco\"\n\nC:\\_Lavori in corso\\autobarbara\\wordpress\\wp-content\\plugins\\car-dealer\\car-dealer.php:\n    2  /*\n    3  Plugin Name: Car dealer\n    4: Plugin URI: http://www.pigrecolab.com\n    5  Description: Car dealer custom plugin\n    6  Version: 1.0\n    7  Author: Roberto Bruno\n    8: Author URI: http://www.pigrecolab.com\n    9   */\n   10  \n\nC:\\_Lavori in corso\\autobarbara\\wordpress\\wp-content\\plugins\\car-dealer\\CMB2\\languages\\cmb2-it_IT.mo:\n    <binary>\n\nC:\\_Lavori in corso\\autobarbara\\wordpress\\wp-content\\plugins\\car-dealer\\CMB2\\languages\\cmb2-it_IT.po:\n   12  \"POT-Creation-Date: 2014-12-23 14:37:49+00:00\\n\"\n   13  \"PO-Revision-Date: 2015-05-06 11:11+0100\\n\"\n   14: \"Last-Translator: PigrecoLab <info@pigrecolab.com>\\n\"\n   15  \"Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/cmb2/language/it_IT/)\\n\"\n   16  \"MIME-Version: 1.0\\n\"\n\n6 matches across 3 files\n",
-			"settings":
-			{
-				"buffer_size": 954,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/nuova landing/index.php",
-			"settings":
-			{
-				"buffer_size": 15472,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/nuova landing/pcss/index.css",
-			"settings":
-			{
-				"buffer_size": 2663,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/nuova landing/css/styles.css",
-			"settings":
-			{
-				"buffer_size": 5254,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/woocommerce.php",
-			"settings":
-			{
-				"buffer_size": 1528,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/grid12.css",
 			"settings":
 			{
-				"buffer_size": 15366,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/cde-js.js",
-			"settings":
-			{
-				"buffer_size": 270,
+				"buffer_size": 16858,
 				"line_ending": "Unix"
 			}
 		},
@@ -101,47 +47,7 @@
 			"file": "templates/advanced-vehicle-results.php",
 			"settings":
 			{
-				"buffer_size": 4778,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/landing page/index.php",
-			"settings":
-			{
-				"buffer_size": 20074,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/Correzioni Mida/array cap.php",
-			"settings":
-			{
-				"buffer_size": 281,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/page.php",
-			"settings":
-			{
-				"buffer_size": 1857,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/style.css",
-			"settings":
-			{
-				"buffer_size": 5696,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/autobarbara/wordpress/wp-content/themes/Lucid/functions.php",
-			"settings":
-			{
-				"buffer_size": 20275,
+				"buffer_size": 4794,
 				"line_ending": "Windows"
 			}
 		},
@@ -149,15 +55,7 @@
 			"file": "templates/archive-vehicle.php",
 			"settings":
 			{
-				"buffer_size": 4493,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/car-dealer.css",
-			"settings":
-			{
-				"buffer_size": 3028,
+				"buffer_size": 4501,
 				"line_ending": "Windows"
 			}
 		},
@@ -165,62 +63,31 @@
 			"file": "templates/single-vehicle.php",
 			"settings":
 			{
-				"buffer_size": 3644,
+				"buffer_size": 3660,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-71068805-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n\n",
+			"file": "car-dealer.php",
 			"settings":
 			{
-				"buffer_size": 410,
-				"line_ending": "Windows",
-				"name": "<script>"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <title><?php wp_title(); ?> <?php bloginfo( 'name' ); ?></title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta charset=\"utf8\" />\n  <link href=\"<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css\" rel=\"stylesheet\" media=\"screen\">\n  <link href=\"<?php bloginfo('stylesheet_url');?>\" type=\"text/css\" rel=\"stylesheet\" media=\"screen, projection\" />\n  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>\n  <script src=\"http://code.jquery.com/jquery.js\"></script>\n  <script src=\"<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js\"></script>\n  <?php wp_head(); ?>\n</head>\n\n<body <?php body_class($class); ?>>\n\n\n  <div class=\"fondoheader\">\n    <div class=\"container\">\n     <div class=\"row\">\n      <div class=\"col-sm-5 logo\">\n        <a href=\"<?php echo home_url(); ?>\"><img src=\"<?php echo get_template_directory_uri(); ?>/images/logo-marmoart.png\"  class=\"img-responsive\" /></a>\n\n      </div>\n      <div class=\"col-sm-7\">\n        <div class=\"row\">\n          <div class=\"col-sm-10\">\n            <nav class=\"navbar navbar-default\" role=\"navigation\">\n              <!-- Brand and toggle get grouped for better mobile display -->\n              <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n                  <span class=\"icon-bar\"></span>\n                  <span class=\"icon-bar\"></span>\n                  <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"<?php echo home_url(); ?>\"></a>\n              </div>\n\n              <!-- Collect the nav links, forms, and other content for toggling -->\n              <div class=\"collapse navbar-collapse\">\n               <?php wp_nav_menu( array('menu' => 'top-bar', 'menu_class' => 'nav navbar-nav navbar-right', 'depth'=> 3, 'container'=> false, 'walker'=> new Bootstrap_Walker_Nav_Menu)); ?>\n             </div><!-- /.navbar-collapse -->\n           </nav>\n\n         </div>\n\n         <div class=\"col-sm-2 fblink\">\n           <a href=\"#\"><img class=\"hidden-xs hidden-sm\" src=\"<?php echo get_template_directory_uri(); ?>/images/fblogo.png\"  height=\"100%\" /> </a>\n         </div>\n\n       </div>\n       <div class=\"row hidden-xs hidden-sm\">\n        <div class=\"col-sm-5 col-sm-offset-7 special-text\" align=\"right\">\n          SEDE OPERATIVA:<br />\nVia Varolato 37<br />\n84047 Capaccio, Italy<br />\nP. iva 04743030654<br />\n\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n</div>\n<?php if (is_front_page()) { ?>\n\n<div class=\"container hidden-xs\">\n  <div class=\"row mrt_slider\">\n<?php putRevSlider('homesli',\"homepage\") ?>\n</div>\n</div>\n<?php } ?>\n\n<div id=\"main-container\" class=\"container\">\n\n\n\n\n\n",
-			"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/header.php",
-			"file_size": 2943,
-			"file_write_time": 130945930468190217,
-			"settings":
-			{
-				"buffer_size": 2831,
+				"buffer_size": 24760,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/contatti.php",
+			"file": "classes/cde_admin.php",
 			"settings":
 			{
-				"buffer_size": 2978,
+				"buffer_size": 4378,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/archive-vehicle - Copia.php",
+			"file": "CMB2/example-functions.php",
 			"settings":
 			{
-				"buffer_size": 4536,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "/*\nTheme Name: Marmo Art\nAuthor: Pigrecolab\nAuthor URI: www.pigrecolab.com\nDescription: Custom theme for marmoart.\nVersion: 1.0\nLicense: GNU General Public License v2 or later\n*/\n\n/*Wordpress editor styles start*/\n\n.entry-content img {\n	margin: 0 0 1.5em 0;\n	}\n.alignleft, img.alignleft {\n	margin-right: 1.5em;\n	display: inline;\n	float: left;\n	}\n.alignright, img.alignright {\n	margin-left: 1.5em;\n	display: inline;\n	float: right;\n	}\n.aligncenter, img.aligncenter {\n	margin-right: auto;\n	margin-left: auto;\n	display: block;\n	clear: both;\n	}\n.alignnone, img.alignnone {\n	/* not sure about this one */\n	}\n.wp-caption {\n	margin-bottom: 1.5em;\n	text-align: center;\n	padding-top: 5px;\n	}\n.wp-caption img {\n	border: 0 none;\n	padding: 0;\n	margin: 0;\n	}\n.wp-caption p.wp-caption-text {\n	line-height: 1.5;\n	font-size: 10px;\n	margin: 0;\n	}\n.wp-smiley {\n	margin: 0 !important;\n	max-height: 1em;\n	}\nblockquote.left {\n	margin-right: 20px;\n	text-align: right;\n	margin-left: 0;\n	width: 33%;\n	float: left;\n	}\nblockquote.right {\n	margin-left: 20px;\n	text-align: left;\n	margin-right: 0;\n	width: 33%;\n	float: right;\n	}\n\n/*Wordpress editor styles end*/\n\nbody {\nbackground: #079b9d url(\"images/fondo-pag.jpg\") repeat-y center top;\nbackground-attachment: fixed;\n}\n\n.special-text {\n\nheight: 30px;\nfont-family: 'Oswald', sans-serif;\ncolor: #079b9d ;\n}\n\n.navbar-default {\n	border-color: transparent;\n	background-color:transparent\n}\n.fondoheader {\n	background: transparent url(\"images/fondo-header.jpg\") no-repeat center top;\n	height: 180px\n}\n.loghi {\nposition: relative\n}\n.loghi > div {\ntop: -10px;\n}\n.loghi > img {\n	height: 100px;\n}\n\n.navbar-nav > .menu-item a {\n\nheight: 30px;\nmargin-top: 20px;\nmargin-left: 10px;\nfont-family: 'Oswald', sans-serif;\n\n\n}\n\n.nav>li>a {\n	padding: 5px;\n	padding-left: 5px;\n	padding-right: 5px;\n	padding-bottom: 10px;\n	\n	\n}\n.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {\n  color: #fff;\n}\n\n.nav>li>a:active, .nav>li>a:visited, .nav>li>a:link  {\n  color: #fff;\n	\n}\n\n.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {\n	color: #fff;\n}\n.logyf {\n	margin-top:15px;\n}\n.titolo {\n	font-family: 'Oswald', sans-serif;\n	font-size: 20px;\n	color: #079b9d;\n	\n}\n\n.titolo_foot {\n	font-family: 'Oswald', sans-serif;\n	font-size: 20px;\n	color: black;\n	\n}\n\n.bck_green {\n	background-color: #079b9d;\n	padding: 15px;\n}\n\n.testo {\n	font-family: 'Oswald', sans-serif;\n	font-size: 16;\n\n}\n.ftnav {\n	list-style-type: none;\n}\n\n.ftnav > .menu-item  a {\n		font-family: 'Oswald', sans-serif;\n	font-size: 14px;\n	font-weight: bold;\n	color: #573827;\n}\n.navbar-default .navbar-toggle {\n  border-color: #fff;\n  background-color: #079b9d;\n  color: #fff;\n}\n.logo  {\n	padding-top: 10px;\n	padding-left: 40px;\n}\n.logoabs {\n	position:absolute;\n	top: 10px;\n	left: 10px;\n}\n.text-center {\n	text-align: center;\n	}\n\n.b-link-fade .b-wrapper, .b-link-fade .b-top-line {\n  background: rgba(255, 255, 190, 1)!important;\n}\n\n.et_overlay {\n  z-index: 3;\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: block;\n  width: 100%;\n  height: 100%;\n  background: rgba(7, 155, 157, 0.9);\n  opacity: 0;\n  -moz-transition: all 0.3s;\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  border: 1px solid #e5e5e5;\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -webkit-backface-visibility: hidden;\n  -moz-backface-visibility: hidden;\n  -o-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transform: translate3d(0,0,0);\n}\n\n#wpbgallery li a {\n  display: block;\n  position: relative;\n  width: 186px;\n  height: 126px;\n  border: #FFF solid 3px;\n  float:left;\n  margin-left: 5px;\n  margin-bottom: 5px;\n\n  \n}\n.et_overlay:hover {\n  opacity: 0.8;\n}\n\n.et_overlay:before {\n  content: '\\e015';\n  position: absolute;\n  top: 55%;\n  left: 50%;\n  margin: -14px 0 0 -14px;\n  font-size: 32px;\n  -moz-transition: all 0.4s;\n  -webkit-transition: all 0.4s;\n  transition: all 0.4s;\n    font-family: 'Glyphicons Halflings';\n	color: white;\n}\n\n.et_overlay:hover:before {\n  top: 50%;\n}\n.th_shadow {\n  z-index: 2;\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: block;\n  width: 100%;\n  height: 100%;\n    box-shadow: inset 2px 2px 5px #000;\n-webkit-box-shadow: inset 2px 2px 5px #000;\n-moz-box-shadow: inset 2px 2px 5px #000;\n-o-box-shadow: inset 2px 2px 5px #000;\n}\n\n#wpbgallery li img {\n  margin: 0px 0px!important;\n}\n\n.fblink {\n	margin-top: 15px;\n}\n.flag {\n	margin-top: 20px;\n}\nli.flag>a:focus, li.flag>a:hover {\n	background-color: transparent!important;\n}\n\n.navbar {\n  position: static;\n}\n.navbar .nav > li {\n  z-index: 1001;\n}\n\n.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .dropdown-menu {\n    background-color: black;\n}\n\n\n\n.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover , .dropdown-menu>li>a:hover {\n	background-color: #079b9d;\n	color: white!important;\n	margin-left: 0px;\n}\n\n\n\n.dropdown-menu>li>a {\n	color: white!important;\n	    height: 30px!important;\n    margin-top: 0px!important;\n}\n\n/* MEDIA QUERIES */\n\n@media (max-width: 420px) {\n	.logoabs img {\n		height: 50px;\n	}\n	\n	.navbar-header {\n		margin-top: 10px;\n	}\n	\n	.navbar-nav > .menu-item a {\n		margin-top:0px;\n 		 background-color: #079b9d;\n	}\n	.navbar-nav > .menu-item a:hover {\n 		 background-color: black!important;\n	}\n\n}\n\n@media (max-width: 768px) {\n\n	\n	.navbar-header {\n		margin-top: 20px;\n	}\n	\n	.navbar-nav > .menu-item a {\n		margin-top:0px;\n 		 background-color: #079b9d;\n	}\n	.navbar-nav > .menu-item a:hover {\n 		 background-color: black;\n	}\n}\n\n	.mrt_slider {\n		height: 203px;\n		overflow:hidden;\n	}\n\n\n	\n\n\n",
-			"file": "/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/style.css",
-			"file_size": 6046,
-			"file_write_time": 130943917650876274,
-			"settings":
-			{
-				"buffer_size": 5700,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/otw-portfolio-light.php",
-			"settings":
-			{
-				"buffer_size": 22551,
+				"buffer_size": 18669,
 				"line_ending": "Windows"
 			}
 		}
@@ -268,6 +135,69 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/car-dealer.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/CMB2/includes/CMB2_Options.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/car-dealer.php",
+		"/C/_Lavori in corso/progetto tema/bootstrap-3.3.6/bootstrap-3.3.6/less/mixins/grid.less",
+		"/C/_Lavori in corso/progetto tema/bootstrap-3.3.6/bootstrap-3.3.6/less/mixins/grid-framework.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/alerts.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/badges.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/breadcrumbs.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/button-groups.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/buttons.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/carousel.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/close.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/code.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/component-animations.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/dropdowns.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/forms.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/grid.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/input-groups.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/jumbotron.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/labels.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/list-group.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/media.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/mixins.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/modals.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/navbar.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/navs.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/pager.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/panels.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/popovers.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/print.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/progress-bars.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/responsive-utilities.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/scaffolding.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tables.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/theme.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/thumbnails.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tooltip.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/type.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/utilities.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/wells.less",
+		"/C/_Lavori in corso/progetto tema/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/tb--prefix-for-Bootstrap-v3.1.0--LESS--master/pagination.less",
+		"/C/_Lavori in corso/progetto tema/bootstrap-3.3.6/bootstrap-3.3.6/less/scaffolding.less",
+		"/C/_Lavori in corso/progetto tema/bootstrap-3.3.6/bootstrap-3.3.6/less/grid.less",
+		"/C/_Lavori in corso/fleda trading/nuova landing/index.php",
+		"/C/_Lavori in corso/fleda trading/nuova landing/pcss/index.css",
+		"/C/_Lavori in corso/fleda trading/nuova landing/css/styles.css",
+		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/woocommerce.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/css/grid12.css",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/js/cde-js.js",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/advanced-vehicle-results.php",
+		"/C/_Lavori in corso/fleda trading/landing page/index.php",
+		"/C/_Lavori in corso/Correzioni Mida/array cap.php",
+		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/page.php",
+		"/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/style.css",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/themes/Lucid/functions.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/archive-vehicle.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/css/car-dealer.css",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/single-vehicle.php",
+		"/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/header.php",
+		"/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/contatti.php",
+		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/archive-vehicle - Copia.php",
+		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/otw-portfolio-light.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/functions 2.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/functions.php",
 		"/C/Users/Roberto/Desktop/home_page.php",
@@ -276,14 +206,12 @@
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/shortcodes-woocommerce.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/related.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/review.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/style.css",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/footer.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/contatti.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/header.php",
 		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/header.php",
 		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/contatti.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/index.php",
-		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/page.php",
 		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/homepage.php",
 		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/index.php",
 		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/customer-new-account.php",
@@ -334,68 +262,7 @@
 		"/C/Users/Roberto/Desktop/marmotheme/style.css",
 		"/C/Users/Roberto/Desktop/CaptionHoverEffects/CaptionHoverEffects/css/component.css",
 		"/C/Users/Roberto/Desktop/CaptionHoverEffects/CaptionHoverEffects/index4.html",
-		"/C/Users/Roberto/Desktop/CaptionHoverEffects/CaptionHoverEffects/index3.html",
-		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/archive-vehicle_short.php",
-		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/Atomic-wp-car/post-type/template-archive.php",
-		"/C/Users/Roberto/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/_Lavori in corso/fleda trading/landing page/invia_req.php",
-		"/C/_Lavori in corso/fleda trading/landing page/index.php",
-		"/C/Users/Roberto/AppData/Local/Temp/Temp1_CaptionHoverEffects.zip/CaptionHoverEffects/index2.html",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/otw-portfolio-light - Copia.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/otw-portfolio-light.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/wp-bootstrap-gallery/js/wpbgallery.js",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/wp-bootstrap-gallery/js/jquery.blueimp-gallery.min.js",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/wp-bootstrap-gallery/js/bootstrap-image-gallery.min.js",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/inserisci.asp",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/js/iso.js",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/js/custom-js.js",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/js/otw-portfolio.js",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/js/jquery.quicksand.js",
-		"/C/Users/Roberto/Desktop/responsive-photo-gallery/get-responsive-gallery-pro.php",
-		"/C/_Lavori in corso/progetto pizzerie/sitodemo/security.php",
-		"/F/_Lavori in corso/nuovo sw cartelli immobilgest/stampacartelli/htdocs/include/header.php",
-		"/F/_Lavori in corso/nuovo sw cartelli immobilgest/stampacartelli/htdocs/classes/Application.php",
-		"/F/_Lavori in corso/nuovo sw cartelli immobilgest/stampacartelli/htdocs/classes/Cartello.php",
-		"/F/_Lavori in corso/nuovo sw cartelli immobilgest/stampacartelli/htdocs/azioni_s.php",
-		"/C/_Lavori in corso/autobarbara/wpcar_v2.1_mafiashare.net/wpcar_v2.1-mafiashare.net/wp-car-dealer/Assets/Atomic-wp-car/wp-car.php",
-		"/C/_Lavori in corso/autobarbara/wordpress/wp-config.php",
-		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/single-vehicle_OLD.php",
-		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/templates/single-vehicle.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/templates/otw-portfolio-post.php",
-		"/F/_Lavori in corso/nuovo sw cartelli immobilgest/stampacartelli/htdocs/cartello.php",
-		"/C/Users/Roberto/Desktop/pigreco-offerte/pigreco-offerte.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/style.css",
-		"/C/Users/Roberto/AppData/Local/Temp/Temp1_revslider.zip/revslider/revslider/revslider.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/contatti.php",
-		"/C/_Lavori in corso/telegram-api/TelegramBotPHP-master/TelegramBotPHP-master/bot examples/pomoz.php",
-		"/C/_Lavori in corso/telegram-api/TelegramBotPHP-master/TelegramBotPHP-master/bot examples/testcurl.php",
-		"/C/_Lavori in corso/telegram-api/TelegramBotPHP-master/TelegramBotPHP-master/bot examples/testcurlpost.php",
-		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/functions.php",
-		"/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/footer.php",
-		"/C/_Lavori in corso/telegram-api/TelegramBotPHP-master/TelegramBotPHP-master/bot examples/testinvio.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/pomoz.php",
-		"/C/_Lavori in corso/telegram-api/TelegramBotPHP-master/TelegramBotPHP-master/bot examples/Telegram.php",
-		"/C/_Lavori in corso/progetto pizzerie/sitodemo/classes/MysqlConn.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/rifiuta.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/conferma.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/testsms.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/admin/gestione-chiusura.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/S_telegram.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/S_carrello.php",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/classes/Ordine.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/index.htm",
-		"/C/_Lavori in corso/pomodoro e mozzarella/sito/ordine-completato.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/index.html",
-		"/C/_Lavori in corso/ammendola/wordpress/wp-content/themes/socute-child/style.css",
-		"/C/Users/Roberto/Desktop/ICOFormat-2.1f1-win64/dist/README.html",
-		"/C/Users/Roberto/Desktop/mt wordpress/wp-config.php",
-		"/C/Users/Roberto/Desktop/mt wordpress/wp-config LOCAL.php",
-		"/C/_Lavori in corso/Agropoli Servizi/wordpress/wp-content/themes/Explorable-child/page-contact.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/chkpwd.php",
-		"/C/Users/Roberto/Downloads/ContentItem-bbcb8557-a307-4b16-a23b-62c623252aa9.html",
-		"/C/_Lavori in corso/Agropoli Servizi/wordpress/wp-content/themes/Explorable-child/header-contact.php",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/templates/otw-prtfolio-filterable.php",
-		"/C/_Lavori in corso/progetto pizzerie/sito promozione/index.html"
+		"/C/Users/Roberto/Desktop/CaptionHoverEffects/CaptionHoverEffects/index3.html"
 	],
 	"find":
 	{
@@ -406,6 +273,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\_Lavori in corso\\progetto tema\\tb--prefix-for-Bootstrap-v3.1.0--LESS--master\\tb--prefix-for-Bootstrap-v3.1.0--LESS--master",
 			"C:\\_Lavori in corso\\autobarbara\\wordpress\\wp-content\\plugins\\car-dealer",
 			"C:\\_Lavori in corso\\pollino agent\\pollino\\wp-content",
 			"C:\\_Lavori in corso\\pollino agent\\pollino\\wp-content\\themes\\spacious"
@@ -416,6 +284,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cde_register_vehicle_metabox",
+			"myprefix",
+			"Myprefix",
+			"myprefix",
+			"Myprefix",
+			"myprefix",
+			"Myprefix",
+			"myprefix",
+			"Myprefix",
+			"myprefix",
+			"Myprefix",
+			"myprefix",
+			"cmb",
+			"wporg",
+			"col",
+			"row",
+			".col",
+			".hidden",
+			".visible",
+			".tb-",
+			"; ?>",
+			"<?php _e",
 			"lightbox",
 			"light",
 			"img",
@@ -521,19 +411,7 @@
 			"keyb",
 			"capab",
 			"role",
-			"product",
-			"row",
-			"pomoz",
-			"false",
-			"postonly",
-			"if ( in_array( 'author', $postinfo ) )",
-			"title_en",
-			"title_it",
-			"it",
-			"desc_it",
-			"desc",
-			"ricettive",
-			"strutture"
+			"product"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -541,6 +419,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"cde_col",
+			"cde_row",
+			".cde_col",
+			".cde_hidden",
+			".cde_visible",
+			".cde_",
 			"",
 			"081 195 76 170",
 			"2d7804",
@@ -566,231 +450,24 @@
 	"groups":
 	[
 		{
-			"selected": 20,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "car-dealer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21482,
-								21482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11664.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 954,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										238,
-										245
-									],
-									[
-										377,
-										384
-									],
-									[
-										762,
-										769
-									],
-									[
-										779,
-										786
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/_Lavori in corso/fleda trading/nuova landing/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4180,
-								4188
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 959.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/_Lavori in corso/fleda trading/nuova landing/pcss/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2663,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/_Lavori in corso/fleda trading/nuova landing/css/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5254,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2002,
-								2002
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 527.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/woocommerce.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1195,
-								1195
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "css/grid12.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15366,
+						"buffer_size": 16858,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14961,
-								14961
+								4601,
+								4604
 							]
 						],
 						"settings":
@@ -800,55 +477,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15363.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/cde-js.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								47,
-								47
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3829.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 1,
 					"file": "templates/advanced-vehicle-results.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4778,
+						"buffer_size": 4794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1786,
-								1786
+								1992,
+								1992
 							]
 						],
 						"settings":
@@ -858,27 +507,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 747.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/C/_Lavori in corso/fleda trading/landing page/index.php",
+					"buffer": 2,
+					"file": "templates/archive-vehicle.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20074,
+						"buffer_size": 4501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3622,
-								3622
+								2031,
+								2031
 							]
 						],
 						"settings":
@@ -888,113 +537,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6912.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "/C/_Lavori in corso/Correzioni Mida/array cap.php",
+					"buffer": 3,
+					"file": "templates/single-vehicle.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 3660,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								281,
-								281
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/_Lavori in corso/fleda trading/fleda/wp-content/themes/fleda/page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1857,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1139,
-								1139
+								1611,
+								1611
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/style.css",
+					"buffer": 4,
+					"file": "car-dealer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5696,
+						"buffer_size": 24760,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/_Lavori in corso/autobarbara/wordpress/wp-content/themes/Lucid/functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12656,
-								12675
+								7671,
+								7671
 							]
 						],
 						"settings":
@@ -1003,277 +596,68 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1345.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "templates/archive-vehicle.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4493,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "css/car-dealer.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3028,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								701,
-								701
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "templates/single-vehicle.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 702.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								410,
-								410
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<script>",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2831,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2548,
-								2442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/themes/marmoart/contatti.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 918.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "templates/archive-vehicle - Copia.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4536,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2364,
-								2360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 4212.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
-					"file": "/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/style.css",
+					"buffer": 5,
+					"file": "classes/cde_admin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5700,
+						"buffer_size": 4378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3134,
-								3134
+								2316,
+								2328
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 2916.0,
+						"translation.x": 0.0,
+						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
-					"file": "/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/otw-portfolio-light.php",
+					"buffer": 6,
+					"file": "CMB2/example-functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22551,
+						"buffer_size": 18669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								17510,
+								17516
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 8617.0,
+						"translation.x": -0.0,
+						"translation.y": 9013.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
