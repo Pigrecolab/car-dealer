@@ -3,7 +3,7 @@ Contributors: pigrecolab
 Donate link: http://www.pigrecolab.com/
 Tags: car dealer, wordpress, plugin
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +18,9 @@ It provides :
 	1. complete custom post type "vehicles" where  you can add your car, with a custom metabox containing model, make, description, photogallery, price, mileage, etc.
 	2. A widget to create a custom search form 
 	3. Three templates for archive vehicle, advanced vehicle result and a single vehicle 
+
+	A demo is available [here](http://www.autobarbara.it/ "Car Dealer Demo").
+	
 == Installation ==
 
 This section describes how to install the plugin and get it working.
