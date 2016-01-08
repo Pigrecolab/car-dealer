@@ -10,29 +10,29 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
 <?php $style_width = '';
 // Get data from URL into variables
 $_name = $_GET['name'] != '' ? $_GET['name'] : '';
-$_mileage = $_GET['maxmil'] != '' ? $_GET['maxmil'] : '';
-$_price = $_GET['maxprice'] != '' ? $_GET['maxprice'] : '';
+$_mileage = $_GET['maxmil'] != '' ? $_GET['maxmil'] : 0;
+$_price = $_GET['maxprice'] != '' ? $_GET['maxprice'] : 0;
 $_year = $_GET['minyear'] != '' ? $_GET['minyear'] : '3000';
 
 // Start the Query
 $v_args = array(
         'post_type'     =>  'vehicle', // your CPT
         's'             =>  $_name, // looks into everything with the keyword from your 'name field'
-        'meta_query'    =>  array(
+       'meta_query'    =>  array(
                                 array(
-                                    'key'     => '_cde_mileage', // assumed your meta_key is 'car_model'
+                                    'key'     => '_cde_mileage', 
                                     'value'   => $_mileage,
-                                    'compare' => '>', // finds models that matches 'model' from the select field
+                                    'compare' => '>=', 
                                 ),
                                 array(
-                                    'key'     => '_cde_price', // assumed your meta_key is 'car_model'
+                                    'key'     => '_cde_price', 
                                     'value'   => $_price,
-                                    'compare' => '<', // finds models that matches 'model' from the select field
+                                    'compare' => '>=', 
                                 ),
-                                array(
-                                    'key'     => '_cde_year', // assumed your meta_key is 'car_model'
+                                 array(
+                                    'key'     => '_cde_year', 
                                     'value'   => $_year,
-                                    'compare' => '<=', // finds models that matches 'model' from the select field
+                                    'compare' => '<=', 
                                 ),
                             )
     );
@@ -59,7 +59,7 @@ $vehicleSearchQuery = new WP_Query( $v_args );
                 <figure>
                   <a href="<?php echo $src_orig[0]; ?>" rel="gallery" class="thumb"><img src="<?php echo $src_thumb[0]; ?>" /></a>
                   <?php } else { ?>
-                  <div style="background:url(<?php echo plugins_url( '/otw-portfolio-light/images/pattern-1.png' ) ?>);width:<?php echo get_option('otw_pfl_thumb_size_w', '303'); ?>px;height:<?php echo get_option('otw_pfl_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'otw_pfl' ); ?>"></div>
+                  <div style="background:url(<?php echo plugins_url( '/otw-portfolio-light/images/pattern-1.png' ) ?>);width:<?php echo get_option('cde_pgl_thumb_size_w', '303'); ?>px;height:<?php echo get_option('cde_pgl_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'cde_pgl' ); ?>"></div>
                   <?php } ?>
                   <figcaption>
                     <h4><?php 
@@ -92,11 +92,11 @@ $vehicleSearchQuery = new WP_Query( $v_args );
 
         <article id="post-0" class="post no-results not-found">
           <header class="entry-header">
-           <h1 class="entry-title"><?php _e( 'Nothing Found', 'otw_pfl' ); ?></h1>
+           <h1 class="entry-title"><?php _e( 'Nothing Found', 'cde_pgl' ); ?></h1>
          </header>
 
          <div class="entry-content">
-           <p><?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'otw_pfl' ); ?></p>
+           <p>Mah...<?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'cde_pgl' ); ?></p>
            <?php get_search_form(); ?>
          </div><!-- .entry-content -->
        </article><!-- #post-0 -->

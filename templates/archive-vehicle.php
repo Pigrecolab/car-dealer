@@ -4,13 +4,11 @@
 
 get_header();
 
-cde_scripts_styles(); /* include the necessary srctips and styles */
+cde_scripts_styles(); /* include the necessary scripts and styles */
 ?>
 <div class="cde_container">
 <?php $style_width = '';
-/*  if( get_option( 'otw_pfl_content_width' ) ) {
-      $style_width = 'style="width:'.get_option('otw_pfl_content_width').'px;"';
-    }*/
+
     ?>
     <div class="cde_row">
     <?php
@@ -42,14 +40,6 @@ cde_scripts_styles(); /* include the necessary srctips and styles */
   </select>
 </form>
  
-
-
-      <?php 
-
-          // query_posts('post_type=vehicle'.$order);
-           //$loop = new WP_Query( array( 'post_type' => 'vehicle', 'posts_per_page' => 2, 'paged'=>$paged ) ); 
-
-  ?>
 
       <!-- navigation holder -->
       <div class="holder">
