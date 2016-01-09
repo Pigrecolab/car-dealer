@@ -554,7 +554,7 @@ global $cde_mon_sym;
 	$shrt="";
     if ($r->have_posts()){
      while ($r->have_posts()) : $r->the_post();
-         $shrt.=" <div class=\"col-sm-6 col-md-4 \">";
+         $shrt.=" <div class=\"cde_col-sm-6 cde_col-md-4 \">";
            $shrt.="<div class=\"cde_thumbnail cde_grid\">";
               if ( has_post_thumbnail()) { 
 //Get the Thumbnail URL
