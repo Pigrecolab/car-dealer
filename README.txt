@@ -13,7 +13,7 @@ WordPress plugin created fo Car Dealers.
 
 == Description ==
 
-Car Dealer is a solution for car dealers to manage the car's catalogue
+Car Dealer is a solution for car dealers to manage the car's catalog
 
 It provides :
 	1. A complete custom post type "vehicles" where you can add your car, with a custom metabox containing model, make, description, photogallery, price, mileage, etc.
