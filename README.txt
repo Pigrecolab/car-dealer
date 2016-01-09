@@ -1,4 +1,4 @@
-=== Car Dealer ===
+=== PL Car Dealer ===
 
 Contributors: Pigrecolab
 Donate link: http://www.pigrecolab.com/

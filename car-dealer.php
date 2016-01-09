@@ -1,12 +1,14 @@
 <?php
 /*
-Plugin Name: Car dealer
+Plugin Name: PL Car dealer
 Plugin URI: http://www.pigrecolab.com
 Description: Car dealer custom plugin
 Version: 1.0
 Author: Roberto Bruno
 Author URI: http://www.pigrecolab.com
+ License: GPL2 or later
  */
+
 
 if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
 	require_once dirname( __FILE__ ) . '/cmb2/init.php';
