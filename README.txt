@@ -1,6 +1,6 @@
-=== Plugin Name ===
+=== Car Dealer ===
 
-Contributors: pigrecolab
+Contributors: Pigrecolab
 Donate link: http://www.pigrecolab.com/
 Tags: car dealer, wordpress, plugin
 Requires at least: 3.0.1
@@ -50,3 +50,7 @@ Go to Appearance / Menu, create a new menu, choose a position among those ones i
 
 = 1.0 =
 * First version of the plugin
+
+== Upgrade Notice ==
+
+No upgrade available

@@ -530,7 +530,7 @@ $advshrt='<form method="get" id="advanced-searchform" role="search" action="'.es
 /* LAST VEHICLES SHORTCODE*/
 /*-----------------------------------------------------------------------------------*/
 
-add_shortcode( 'cde_last', 'cde_adv_last' );
+add_shortcode( 'cde_last_vehicles', 'cde_adv_last' );
 
 function cde_adv_last( $atts ) {
 
@@ -544,6 +544,9 @@ $r = new WP_Query( array(
    'ignore_sticky_posts' => true,
 ) );
 
+
+global $cde_mil_abb;
+global $cde_mon_sym;
 
 	$cnt=0;
 	$shrt="";
@@ -567,10 +570,10 @@ $r = new WP_Query( array(
                      $mileage = get_post_meta( get_the_ID(), $prefix.'mileage', true );
                      $year = get_post_meta( get_the_ID(), $prefix.'year', true );
                      $price = get_post_meta( get_the_ID(), $prefix.'price', true );
-                     $shrt.="&euro; ".$price;
+                     $shrt.= $cde_mon_sym." ".$price;
                    $shrt.="</h4><br /><span>".sprintf( __( '<strong>Year: </strong> %s', "cde_pgl" ), $year );
                     $shrt.="<br>";
-                      $shrt.=sprintf( __( '<strong>Km: </strong> %s', "cde_pgl" ), $mileage )."</span><br>
+                      $shrt.=sprintf( __( '<strong>'.$cde_mil_abb.' : </strong> %s', "cde_pgl" ), $mileage )."</span><br>
                     <a href=\"".get_the_permalink()."\">".__("Take a look", "cde_pgl")."</a>";
                  $shrt.=" </figcaption>";
                 $shrt.="</figure>";

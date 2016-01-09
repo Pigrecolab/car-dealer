@@ -6,6 +6,7 @@ get_header();
 
 cde_scripts_styles(); /* include the necessary scripts and styles */
 ?>
+
 <div class="cde_container">
 <?php $style_width = '';
 
@@ -67,11 +68,11 @@ cde_scripts_styles(); /* include the necessary scripts and styles */
                      $mileage = get_post_meta( get_the_ID(), $prefix.'mileage', true );
                      $year = get_post_meta( get_the_ID(), $prefix.'year', true );
                      $price = get_post_meta( get_the_ID(), $prefix.'price', true );
-                     echo "&euro; ".$price;
+                     echo $cde_mon_sym." ".$price;
                   ?></h4><br />
                     <span><?php printf( __( '<strong>Year: </strong> %s', "cde_pgl" ), $year );
                     echo "<br>";
-                      printf( __( '<strong>Km: </strong> %s', "cde_pgl" ), $mileage )  ?></span>
+                      printf( __( '<strong>'.$cde_mil_abb.': </strong> %s', "cde_pgl" ), $mileage )  ?></span>
                     <a href="<?php the_permalink(); ?>"><?php _e("Take a look", "cde_pgl") ?></a>
                   </figcaption>
                 </figure>
@@ -92,11 +93,11 @@ cde_scripts_styles(); /* include the necessary scripts and styles */
 
         <article id="post-0" class="post no-results not-found">
           <header class="entry-header">
-           <h1 class="entry-title"><?php _e( 'Nothing Found', 'otw_pfl' ); ?></h1>
+           <h1 class="entry-title"><?php _e( 'Nothing Found', 'cde_pgl' ); ?></h1>
          </header>
 
          <div class="entry-content">
-           <p><?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'otw_pfl' ); ?></p>
+           <p><?php _e( 'Apologies, but no results were found. ', 'cde_pgl' ); ?></p>
            <?php get_search_form(); ?>
          </div><!-- .entry-content -->
        </article><!-- #post-0 -->

@@ -34,11 +34,11 @@
 
 
                                 <strong><?php _e( 'Mileage', 'cde_pgl' ) ?>: </strong>
-                                <?php echo esc_html( get_post_meta( get_the_ID(), $prefix.'mileage', true ) ); ?>
+                                <?php echo esc_html( $cde_mil_abb.' '.get_post_meta( get_the_ID(), $prefix.'mileage', true ) ); ?>
                                 <br /><br />
 
                                 <strong><?php _e( 'Price', 'cde_pgl' ) ?>: </strong>
-                                &euro; <?php echo esc_html( get_post_meta( get_the_ID(), $prefix.'price', true ) ); ?>
+                               <?php echo esc_html($cde_mon_sym.' '.get_post_meta( get_the_ID(), $prefix.'price', true ) ); ?>
                                 <br />   <br />
                             </div>    
                         </div><br /><br />

@@ -59,7 +59,7 @@ $vehicleSearchQuery = new WP_Query( $v_args );
                 <figure>
                   <a href="<?php echo $src_orig[0]; ?>" rel="gallery" class="thumb"><img src="<?php echo $src_thumb[0]; ?>" /></a>
                   <?php } else { ?>
-                  <div style="background:url(<?php echo plugins_url( '/otw-portfolio-light/images/pattern-1.png' ) ?>);width:<?php echo get_option('cde_pgl_thumb_size_w', '303'); ?>px;height:<?php echo get_option('cde_pgl_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'cde_pgl' ); ?>"></div>
+                  <div style="background:url(<?php echo plugins_url( '/car-dealer/images/pattern-1.png' ) ?>);width:<?php echo get_option('cde_pgl_thumb_size_w', '303'); ?>px;height:<?php echo get_option('cde_pgl_thumb_size_h', '210'); ?>px" title="<?php _e( 'No Image', 'cde_pgl' ); ?>"></div>
                   <?php } ?>
                   <figcaption>
                     <h4><?php 
@@ -67,11 +67,11 @@ $vehicleSearchQuery = new WP_Query( $v_args );
                      $mileage = get_post_meta( get_the_ID(), $prefix.'mileage', true );
                      $year = get_post_meta( get_the_ID(), $prefix.'year', true );
                      $price = get_post_meta( get_the_ID(), $prefix.'price', true );
-                     echo "&euro; ".$price;
+                      echo $cde_mon_sym." ".$price;
                   ?></h4><br />
                     <span><?php printf( __( '<strong>Year: </strong> %s' ), $year );
                     echo "<br>";
-                      printf( __( '<strong>Km: </strong> %s' ), $mileage )  ?></span>
+                      printf( __( '<strong>'.$cde_mil_abb.': </strong> %s' ), $mileage )  ?></span>
                     <a href="<?php the_permalink(); ?>"><?php _e("Take a look", "cde_pgl") ?></a>
                   </figcaption>
                 </figure>
@@ -96,7 +96,7 @@ $vehicleSearchQuery = new WP_Query( $v_args );
          </header>
 
          <div class="entry-content">
-           <p>Mah...<?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'cde_pgl' ); ?></p>
+           <p>Mah...<?php _e( 'Apologies, but no results were found.', 'cde_pgl' ); ?></p>
            <?php get_search_form(); ?>
          </div><!-- .entry-content -->
        </article><!-- #post-0 -->

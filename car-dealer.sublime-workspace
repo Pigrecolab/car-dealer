@@ -47,7 +47,7 @@
 			"file": "templates/advanced-vehicle-results.php",
 			"settings":
 			{
-				"buffer_size": 4794,
+				"buffer_size": 4509,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "templates/archive-vehicle.php",
 			"settings":
 			{
-				"buffer_size": 4501,
+				"buffer_size": 4174,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +71,26 @@
 			"file": "car-dealer.php",
 			"settings":
 			{
-				"buffer_size": 24760,
+				"buffer_size": 19003,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.txt",
+			"settings":
+			{
+				"buffer_size": 1603,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <title><?php wp_title(); ?> <?php bloginfo( 'name' ); ?></title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta charset=\"utf8\" />\n  <link href=\"<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css\" rel=\"stylesheet\" media=\"screen\">\n  <link href=\"<?php bloginfo('stylesheet_url');?>\" type=\"text/css\" rel=\"stylesheet\" media=\"screen, projection\" />\n  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>\n\n  <?php wp_head(); ?>\n</head>\n\n<body <?php body_class($class); ?>>\n\n\n  <div class=\"fondoheader\">\n    <div class=\"container\">\n     <div class=\"row\">\n      <div class=\"col-sm-5 logo\">\n        <a href=\"<?php echo home_url(); ?>\"><img src=\"<?php echo get_template_directory_uri(); ?>/images/logo-marmoart.png\"  class=\"img-responsive\" /></a>\n\n      </div>\n      <div class=\"col-sm-7\">\n        <div class=\"row\">\n          <div class=\"col-sm-10\">\n            <nav class=\"navbar navbar-default\" role=\"navigation\">\n              <!-- Brand and toggle get grouped for better mobile display -->\n              <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n                  <span class=\"icon-bar\"></span>\n                  <span class=\"icon-bar\"></span>\n                  <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"<?php echo home_url(); ?>\"></a>\n              </div>\n\n              <!-- Collect the nav links, forms, and other content for toggling -->\n              <div class=\"collapse navbar-collapse\">\n               <?php wp_nav_menu( array('theme_location'  => 'top_bar','menu' => 'top_bar', 'menu_class' => 'nav navbar-nav navbar-right', 'depth'=> 3, 'container'=> false, 'walker'=> new Bootstrap_Walker_Nav_Menu)); ?>\n             </div><!-- /.navbar-collapse -->\n           </nav>\n\n         </div>\n\n         <div class=\"col-sm-2 fblink\">\n           <a href=\"https://www.facebook.com/MARMO-ART-139304306099199/\"><img class=\"hidden-xs hidden-sm\" src=\"<?php echo get_template_directory_uri(); ?>/images/fblogo.png\"  height=\"100%\" /> </a>\n         </div>\n\n       </div>\n       <div class=\"row hidden-xs hidden-sm\">\n        <div class=\"col-sm-5 col-sm-offset-7 special-text\" align=\"right\">\n          SEDE OPERATIVA:<br />\nVia varolato 37<br />\n84047 Capaccio, Italy<br />\nTel. 338 333 12 77<br />\n\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n</div>\n<?php if (is_front_page()) { ?>\n\n<div class=\"container hidden-xs\">\n  <div class=\"row mrt_slider\">\n<?php putRevSlider('homesli',\"homepage\") ?>\n</div>\n</div>\n<?php } ?>\n\n<div id=\"main-container\" class=\"container\">\n\n\n\n\n\n",
+			"file": "/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/header.php",
+			"file_size": 2847,
+			"file_write_time": 130967523114519192,
+			"settings":
+			{
+				"buffer_size": 2767,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,10 +147,11 @@
 	"file_history":
 	[
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/README.md",
+		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/advanced-vehicle-results.php",
+		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/car-dealer.php",
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/README.txt",
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/LICENCE",
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/CMB2/example-functions.php",
-		"/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/car-dealer.php",
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/CMB2/includes/CMB2_Options.php",
 		"/C/_Lavori in corso/autobarbara/wordpress/wp-content/plugins/car-dealer/car-dealer.php",
 		"/C/_Lavori in corso/progetto tema/bootstrap-3.3.6/bootstrap-3.3.6/less/mixins/grid.less",
@@ -253,8 +273,7 @@
 		"/C/_Lavori in corso/Correzioni Mida/include/header.php",
 		"/C/_Lavori in corso/Correzioni Mida/include/menu.php",
 		"/C/_Lavori in corso/autobarbara/jPages-master/jPages-master/itemsperpage.html",
-		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/templates/otw-portfolio-paginated.php",
-		"/C/Users/Roberto/Desktop/marmotheme/style-real.css"
+		"/C/_Lavori in corso/marmo art/wordpress/wp-content/plugins/otw-portfolio-light/templates/otw-portfolio-paginated.php"
 	],
 	"find":
 	{
@@ -276,6 +295,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"otw_pfl",
 			"cde_register_vehicle_metabox",
 			"myprefix",
 			"Myprefix",
@@ -402,8 +422,7 @@
 			"info",
 			"keyb",
 			"capab",
-			"role",
-			"product"
+			"role"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -442,7 +461,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -472,7 +491,7 @@
 						"translation.y": 3829.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -481,15 +500,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4794,
+						"buffer_size": 4509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1992,
-								1992
+								4236,
+								4243
 							]
 						],
 						"settings":
@@ -499,7 +518,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 747.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -511,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4501,
+						"buffer_size": 4174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2031,
-								2031
+								113,
+								113
 							]
 						],
 						"settings":
@@ -529,7 +548,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -562,7 +581,7 @@
 						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -571,15 +590,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24760,
+						"buffer_size": 19003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7671,
-								7671
+								16391,
+								16391
 							]
 						],
 						"settings":
@@ -588,14 +607,72 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4698.0,
+						"translation.y": 7362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Roberto/AppData/Local/Temp/fz3temp-1/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2102,
+								2102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "classes/cde_admin.php",
 					"semi_transient": false,
 					"settings":
@@ -620,7 +697,7 @@
 						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
