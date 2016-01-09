@@ -14,11 +14,20 @@ cde_scripts_styles(); /* include the necessary scripts and styles */
     <div class="cde_row">
     <?php
   $order = "&order=ASC";
-  if ($_POST['select'] == 'price') { $order = "&orderby=_cde_price";  }
-  if ($_POST['select'] == 'year') { $order = "&orderby=_cde_year";  }
-  if ($_POST['select'] == 'mileage') { $order = "&orderby=_cde_mileage";  }
+   $cde_select = "";
+   $cde_ord="";
 
-  if (isset($_POST['order'])) { $order .= "&order=".$_POST['order'];  }
+  if (isset($_POST['cde_select'] )) {
+    $order = "&orderby=_cde_".$_POST['cde_select'];
+    $cde_select = $_POST['cde_select'];
+  }
+
+
+
+  if (isset($_POST['cde_order'])) { 
+    $order .= "&order=".$_POST['cde_order']; 
+    $cde_ord=$_POST['cde_order'];
+  }
 
 ?>
  
@@ -26,16 +35,16 @@ cde_scripts_styles(); /* include the necessary scripts and styles */
 
 <form method="post" id="order">
   <?php _e( 'Sort vehicles by:','cde_pgl' ) ?>
-  <select name="select" onchange='this.form.submit()'>
-    <option value="price"<?php selected( $_POST['select'],'price', 1 ); ?>><?php _e( 'price','cde_pgl' ) ?></option>
-    <option value="year"<?php selected( $_POST['select'],'year', 1 ); ?>><?php _e( 'year','cde_pgl' ) ?></option>
-    <option value="mileage"<?php selected( $_POST['select'],'mileage', 1 ); ?>><?php _e( 'mileage','cde_pgl' ) ?></option>
+  <select name="cde_select" onchange='this.form.submit()'>
+    <option value="price"<?php selected( $cde_select,'price', 1 ); ?>><?php _e( 'price','cde_pgl' ) ?></option>
+    <option value="year"<?php selected( $cde_select,'year', 1 ); ?>><?php _e( 'year','cde_pgl' ) ?></option>
+    <option value="mileage"<?php selected( $cde_select,'mileage', 1 ); ?>><?php _e( 'mileage','cde_pgl' ) ?></option>
 
   </select>
 
-  <select name="order" onchange='this.form.submit()'>
-    <option value="ASC"<?php selected( $_POST['order'],'ASC', 1 ); ?>><?php _e( 'ASC','cde_pgl' ) ?></option>
-    <option value="DESC"<?php selected( $_POST['order'],'DESC', 1 ); ?>><?php _e( 'DESC','cde_pgl' ) ?></option>
+  <select name="cde_order" onchange='this.form.submit()'>
+    <option value="ASC"<?php selected( $cde_ord,'ASC', 1 ); ?>><?php _e( 'ASC','cde_pgl' ) ?></option>
+    <option value="DESC"<?php selected( $cde_ord,'DESC', 1 ); ?>><?php _e( 'DESC','cde_pgl' ) ?></option>
   
 
   </select>

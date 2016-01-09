@@ -14,6 +14,8 @@ $_mileage = $_GET['maxmil'] != '' ? $_GET['maxmil'] : 0;
 $_price = $_GET['maxprice'] != '' ? $_GET['maxprice'] : 0;
 $_year = $_GET['minyear'] != '' ? $_GET['minyear'] : '3000';
 
+global $cde_mil_abb, $cde_mon_sym;
+
 // Start the Query
 $v_args = array(
         'post_type'     =>  'vehicle', // your CPT
@@ -52,8 +54,8 @@ $vehicleSearchQuery = new WP_Query( $v_args );
           <div class="cde_thumbnail cde_grid">
               <?php if ( has_post_thumbnail()) { 
 //Get the Thumbnail URL
-                $src_orig = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full', false, '' );
-                $src_thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'cde_size', false, '' );
+                $src_orig = wp_get_attachment_image_src( get_post_thumbnail_id($vehicleSearchQuery->post->ID), 'full', false, '' );
+                $src_thumb = wp_get_attachment_image_src( get_post_thumbnail_id($vehicleSearchQuery->post->ID), 'cde_size', false, '' );
 
                 ?>
                 <figure>
