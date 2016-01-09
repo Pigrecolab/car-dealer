@@ -6,7 +6,7 @@ Tags: car dealer, wordpress, plugin
 Requires at least: 3.0.1
 Tested up to: 4.3
 Stable tag: 4.3
-License: GPLv2
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 WordPress plugin created fo Car Dealers.
@@ -18,9 +18,11 @@ Car Dealer is a solution for car dealers to manage the car's catalogue
 It provides :
 	1. A complete custom post type "vehicles" where you can add your car, with a custom metabox containing model, make, description, photogallery, price, mileage, etc.
 	2. A widget for a custom search form
-	3. A shortcode for a custom search form
-	4. A shortcode for last vehicles
-	5. Three templates for archive vehicle, advanced vehicle result and a single vehicle 
+	3. A shortcode for a custom search form: [cde_advanced_search]
+	4. A shortcode for last vehicles [cde_advanced_search]
+	5. Three templates for archive vehicle, advanced vehicle result and a single vehicle
+	6. Translation ready (Italian language included)
+	7. Mileage abbreviation and money symbol setting
 
 	A demo is available at http://www.autobarbara.it/ 
 	
