@@ -3,7 +3,7 @@
 Plugin Name: PL Car dealer
 Plugin URI: http://www.pigrecolab.com
 Description: Car dealer custom plugin
-Version: 1.0
+Version: 1.0.1
 Author: Roberto Bruno
 Author URI: http://www.pigrecolab.com
  License: GPL2 or later
