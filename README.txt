@@ -2,7 +2,7 @@
 
 Contributors: Pigrecolab
 Donate link: http://www.pigrecolab.com/
-Tags: car dealer, wordpress, plugin
+Tags: car dealer, car seller, cars
 Requires at least: 3.0.1
 Tested up to: 4.3
 Stable tag: 4.3
